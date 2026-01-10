@@ -1,0 +1,151 @@
+# Ignore dependency directories
+node_modules/
+vendor/
+
+# Ignore build output
+dist/
+build/
+
+# Ignore log files
+*.log
+
+# Ignore environment variables
+.env
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Build results
+# -------------------------
+bin/
+obj/
+Debug/
+Release/
+
+# -------------------------
+# User-specific files
+# -------------------------
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# -------------------------
+# Visual Studio cache files
+# -------------------------
+.vs/
+
+# -------------------------
+# NuGet packages
+# -------------------------
+# Ignore packages folder (restore them via NuGet)
+packages/
+*.nupkg
+*.snupkg
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
+
+# -------------------------
+# Environment variables
+# -------------------------
+*.env
+
+# -------------------------
+# Backup & temporary files
+# -------------------------
+*.bak
+*.tmp
+*.swp
+
+# -------------------------
+# Publish output
+# -------------------------
+publish/
+*.pubxml
+*.publishproj
+
+# -------------------------
+# Test results
+# -------------------------
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# -------------------------
+# Others
+# -------------------------
+# Ignore SQLite or local DB files
+*.mdf
+*.ldf
+*.sqlite
+
+# Ignore Rider/JetBrains IDE files
+.idea/
+
+
+# -------------------------
+# Build results (compiled binaries)
+# -------------------------
+bin/
+obj/
+Debug/
+Release/
+
+# -------------------------
+# Visual Studio cache
+# -------------------------
+.vs/
+
+# -------------------------
+# NuGet packages
+# -------------------------
+# Ignore packages folder (restore via NuGet)
+packages/
+*.nupkg
+*.snupkg
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
+
+# -------------------------
+# Environment variables
+# -------------------------
+*.env
+
+# -------------------------
+# Publish output
+# -------------------------
+publish/
+*.pubxml
+*.publishproj
+
+# -------------------------
+# Test results
+# -------------------------
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# -------------------------
+# Backup & temporary files
+# -------------------------
+*.bak
+*.tmp
+*.swp
+
+# -------------------------
+# Database files
+# -------------------------
+*.mdf
+*.ldf
+*.sqlite
