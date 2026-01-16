@@ -15,5 +15,5 @@ Once you create the Project, please add the below packages either using the Pack
 **- Microsoft.EntityFrameworkCore.Tools**
 Creating and Applying Migration:
 
-open the Package Manager Console and Execute the Add-Migration and Update-Database commands as follows to generate the Migration file and then apply the Migration file to create the BlogManagementDB database and required tables based on our Models and BlogManagementDBContext class:
+open the Package Manager Console and Execute the **Add-Migration** and **Update-Database** commands as follows to generate the Migration file and then apply the Migration file to create the BlogManagementDB database and required tables based on our Models and BlogManagementDBContext class:
 
