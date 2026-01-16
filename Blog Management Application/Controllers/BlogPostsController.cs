@@ -204,7 +204,7 @@ namespace BlogManagementApp.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(BlogPost blogPost, IFormFile? FeaturedImage)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 try
                 {
