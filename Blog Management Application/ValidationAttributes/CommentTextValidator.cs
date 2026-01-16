@@ -21,7 +21,7 @@ namespace Blog_Management_Application.ValidationAttributes
             var text = value as string;
             if(string.IsNullOrWhiteSpace(text))
             {
-                return new ValidationResult.Success;
+                return ValidationResult.Success;
             }
             var words = text.ToLower().Split(' ', StringSplitOptions.RemoveEmptyEntries);
 
